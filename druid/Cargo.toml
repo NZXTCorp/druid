@@ -48,6 +48,8 @@ hdr = ["druid-shell/hdr"]
 # Remember to update this when changing an image feature.
 image-all = ["image", "svg", "png", "jpeg", "jpeg_rayon", "gif", "bmp", "ico", "tiff", "webp", "pnm", "dds", "tga", "farbfeld", "dxt", "hdr"]
 
+raw-win-handle = ["druid-shell/raw-win-handle"]
+
 [dependencies]
 druid-shell = { version = "0.7.0", default-features = false, path = "../druid-shell" }
 druid-derive = { version = "0.4.0", path = "../druid-derive" }
